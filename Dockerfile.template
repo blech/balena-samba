@@ -30,4 +30,4 @@ ENV SAMBA_ROOT=/samba
 
 EXPOSE 139 445
 
-CMD ["bash", "scripts/start.sh", "--foreground", "--log-stdout", "--no-process-group"]
+CMD ["bash", "scripts/start.sh", "--foreground", "--debug-stdout", "--no-process-group"]
